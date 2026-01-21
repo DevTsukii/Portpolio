@@ -6,23 +6,24 @@ import { Experience } from "@/sections/Experience";
 import { Projects } from "@/sections/Projects";
 import { Testimonials } from "@/sections/Testimonials";
 import { Navbar } from "@/layout/Navbar";
-
+import { Footer } from "@/layout/Footer";
 function App() {
   
 
   return (
- <div className="min-h-screen overflow-x-hidden">
-  <Navbar/>
-  <main>
-    <Hero/>
-    <About/>
-    <Contact/>
-    <Experience/>
-    <Projects/> 
-    <Testimonials/>
-  </main>
- </div>
-  )
+    <div className="min-h-screen overflow-x-hidden">
+      <Navbar />
+      <main>
+        <Hero />
+        <About />
+        <Projects />
+        <Experience />
+        <Testimonials />
+        <Contact />
+      </main>
+      <Footer />
+    </div>
+  );
 }
 
 export default App
